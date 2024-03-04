@@ -1,0 +1,13 @@
+add 12.02.2023 10:00:00, Tesla, buy,   5, 122.5
+add 12.02.2023 10:00:01, Tesla, buy,   4, 123
+add 12.02.2023 10:00:02, Tesla, buy,  10, 122.0
+add 12.02.2023 10:01:00, Apple, buy,  20, 135
+add 12.02.2023 10:01:10, Apple, buy,   4, 135.5
+add 12.02.2023 10:02:00, Intel, buy,  35, 32.1
+add 12.02.2023 10:03:00, Apple, sell,  1, 135.1
+add 12.02.2023 10:03:01, Apple, sell, 11, 135
+add 12.02.2023 10:00:11, Tesla, sell, 16, 122.0
+add 12.02.2023 10:02:01, Intel, buy,  15, 32
+export output1.txt
+save test1.db
+quit

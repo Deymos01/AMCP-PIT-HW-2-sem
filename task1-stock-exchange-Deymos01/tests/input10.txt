@@ -1,0 +1,2 @@
+insert 12.02.2023 10:00:00, Tesla, buy,   5, 122
+quit

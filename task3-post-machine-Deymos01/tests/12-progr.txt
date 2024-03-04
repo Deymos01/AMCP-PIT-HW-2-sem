@@ -1,0 +1,14 @@
+% Remainder after dividing the length of the given array by 3
+1. ? 2 3
+2. !
+3. X 4
+4. R 5
+5. ? 6 7
+6. V 2
+7. X 8
+8. R 9
+9. ? 10 12
+10. V 11
+11. L 6
+12. X 13
+13. R 1
