@@ -1,0 +1,3 @@
+load test2.db
+dom INTEL
+quit

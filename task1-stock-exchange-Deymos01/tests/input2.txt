@@ -1,0 +1,4 @@
+load test1.db
+clear
+export output2.txt
+quit
