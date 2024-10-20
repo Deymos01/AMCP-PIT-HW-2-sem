@@ -1,8 +1,19 @@
 #ifndef TASK5_BOOLCALC_DEYMOS01_ACTIONS_H
 #define TASK5_BOOLCALC_DEYMOS01_ACTIONS_H
 
+/*
+* 1. Write from input to output with index
+* 2. Push to stack
+* 3. Write from stack to output
+* 4. Write from input to output
+* 5. Delete top symbol in stack and go to next symbol in input
+* 6. Error. There is no ')'
+* 7. Error. There is no '('
+* 8. OK. End of converting
+*/
+
 const unsigned char ActionsTable[][13] = {
-        //      \0      ~      &      v      +      ->     <-     =      |       ^      (       )       x
+//      \0  ~  &  v  + -> <-  =  |  ^  (  )  x
         {8, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 7, 1}, // \0
         {3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 1}, // ~
         {3, 2, 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 1}, // &
